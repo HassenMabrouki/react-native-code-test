@@ -23,9 +23,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 20,
+    paddingBottom: 15
   },
   text: {
-    fontSize: normalize(12),
+    fontSize: normalize(14),
+    fontWeight: '500',
     color: '#000',
   },
 });
