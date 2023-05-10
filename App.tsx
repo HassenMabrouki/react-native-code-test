@@ -12,7 +12,6 @@ import MainScreen from './src/screens/MainScreen';
 function App(): JSX.Element {
   return (
     <SafeAreaView style={styles.container}>
-      
       <MainScreen />
     </SafeAreaView>
   );

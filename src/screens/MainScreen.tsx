@@ -20,7 +20,6 @@ const MainScreen: FC<Props> = ({}) => {
 
   const checkMore = useCallback(() => {
     if (totalPages && page < totalPages) {
-      console.log('here');
       setPage(page + 1);
     } else {
       setNoMoreUsers(true);
